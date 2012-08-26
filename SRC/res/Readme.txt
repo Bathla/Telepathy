@@ -1,0 +1,1 @@
+For BMP files as well,use Irfanview rather than mspaint to decrease color depth without effecting image quality 

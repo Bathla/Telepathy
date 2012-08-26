@@ -1,0 +1,222 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\Telepathy.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "Tele.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TELEPATHY_DIALOG DIALOGEX 0, 0, 199, 182
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW | 0x80000L
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST1,31,31,91,19,NOT LBS_NOTIFY | LBS_NOREDRAW | 
+                    LBS_NOINTEGRALHEIGHT | NOT WS_VISIBLE | NOT WS_BORDER | 
+                    WS_VSCROLL,WS_EX_ACCEPTFILES
+    CONTROL         "MIN",IDC_MIN,"Button",BS_OWNERDRAW | BS_BITMAP,151,15,
+                    33,6
+    CONTROL         "PLAY",IDC_PLAY,"Button",BS_OWNERDRAW | BS_BITMAP,19,153,
+                    26,17
+    CONTROL         "STOP",IDC_STOP,"Button",BS_OWNERDRAW | BS_BITMAP,81,153,
+                    26,17
+    CONTROL         "RECORD",IDC_RECORD,"Button",BS_OWNERDRAW | BS_BITMAP,50,
+                    154,27,17
+    CONTROL         "",IDC_MMCONTROL1,"{C1A8AF25-1257-101B-8FB0-0020AF039CA3}",
+                    NOT WS_VISIBLE,55,69,94,12
+    CONTROL         "MENU",IDC_MENU,"Button",BS_OWNERDRAW | BS_BITMAP,7,1,32,
+                    12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "BATHLA"
+            VALUE "FileDescription", "Telepathy"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Telepathy.exe"
+            VALUE "LegalCopyright", "(c) BATHLA.  All rights reserved."
+            VALUE "OriginalFilename", "Telepathy.exe"
+            VALUE "ProductName", "Telepathy"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_MAIN                BITMAP                  "res\\Main.bmp"
+MINU                    BITMAP                  "res\\Min.bmp"
+MIND                    BITMAP                  "res\\Mined.bmp"
+PLAYU                   BITMAP                  "res\\Play.bmp"
+PLAYD                   BITMAP                  "res\\Played.bmp"
+RECORDU                 BITMAP                  "res\\Record.bmp"
+RECORDD                 BITMAP                  "res\\Recorded.bmp"
+STOPU                   BITMAP                  "res\\Stop.bmp"
+STOPD                   BITMAP                  "res\\Stopped.bmp"
+MENUD                   BITMAP                  "res\\Menued.bmp"
+MENUU                   BITMAP                  "res\\Menu.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_TELEPATHY_DIALOG DLGINIT
+BEGIN
+    IDC_MMCONTROL1, 0x376, 181, 0
+0x0024, 0x0000, 0x006d, 0x0067, 0x006b, 0x0067, 0x0074, 0x0067, 0x006e, 
+0x006e, 0x006d, 0x006e, 0x006d, 0x006e, 0x0069, 0x006e, 0x0069, 0x0067, 
+0x0074, 0x0068, 0x006b, 0x0067, 0x006f, 0x0067, 0x0067, 0x0067, 0x0076, 
+0x006d, 0x006b, 0x0068, 0x0069, 0x006e, 0x006a, 0x0067, 0x0067, 0x006e, 
+0x0076, 0x006d, 0x4321, 0x1234, 0x0008, 0x0000, 0x0e93, 0x0000, 0x0211, 
+0x0000, 0xface, 0xdead, 0x0000, 0x0006, 0x0040, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0001, 0x0064, 0x0000, 0x0000, 0x0000, 0xffff, 
+0x0000, 0x0000, 0x0000, 0xffff, 0xffff, 0x0000, 0x0000, 0xffff, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0xffff, 0x0000, 0x0000, 0x0009, 0x6157, 0x6576, 0x7541, 0x6964, 0x006f, 
+"\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MYMENU MENU 
+BEGIN
+    POPUP "Settings"
+    BEGIN
+        MENUITEM "Open Log",                    ID_SETTINGS_HELLO178
+        POPUP "Configure"
+        BEGIN
+            MENUITEM "Modem..",                     ID_CONFIGURE_MODEM
+            MENUITEM "Sound..",                     ID_CONFIGURE_SOUND
+            MENUITEM "Power..",                     ID_CONFIGURE_POWER
+        END
+        MENUITEM "About...",                    ID_SETTINGS_ABOUT188
+        MENUITEM "Exit",                        ID_SETTINGS_EXIT189
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\Telepathy.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

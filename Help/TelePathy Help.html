@@ -1,0 +1,210 @@
+
+<html>
+<Title>TelePathy !What is it?</Title>
+<Head><h2><center>Introduction</center></h2></head>
+<body bgcolor=#ddeeff>
+<h3><center>What is TelePathy?</center></h3>
+<font color="blue">
+TelePathy is an application build with MFC which uses the Microsoft's COM based telephony API TAPI.
+It emulates a telephone answering machine running from your computer,
+handling calls when you are not there.
+</font>
+<br>
+<br>
+
+<h3><center>What can it do for me?</center></h3>
+<font color="blue">
+<p>TelePathy is a simple to use,very effective tool that can attend to your telephone calls when you are outside.
+It can be minimized to system tray ,runs hidden in the background listening for the telephone calls that come in.
+</p>
+<p> It comes into play when a call arrives on your computer that is and should be connected to your telephone line via a modem.
+As soon as a new call arrives ,it tries to connect to the caller through your modem.
+Once the connection is established (takes few seconds),the caller on the otherside
+is addressed by a message like ' I'm currently outside .You can if you want leave your message'.
+Just after this message is dispatched ,TelePathy transits into recording mode for the next 20 
+seconds during which the caller from the other side can talk into his reciever and pass whatever
+ acknowledegment/counter-message he wants you to hear on return.
+<p>
+This counter-message from the caller is captured and saved as a Wave file in the 'Messages' folder with the exact time of the arrival of the call.
+After this the connection is disconnected automatically  and the application begins to listen for the next call.
+</p>
+<p>
+With the ever increasing cellphone rates, this application can ease your pocket 
+by defying the need for a cellphone/mobile to allow you to attend your indispensable calls through your POTS (Plain Old Telephone Service) connection itself.
+
+</p>
+</font>
+
+<h3><center>How to use TelePathy?</center></h3>
+<font color="blue">
+<p>&nbsp;&nbsp;&nbsp;TelePathy is a simple to use application with Cool Graphics and just four buttons to get accustomed to.Here is there description:-
+<br><br>
+ &nbsp;&nbsp;&nbsp;The Play Button :-<br>
+&nbsp;&nbsp;&nbsp;<img src= DPlay.gif> <p>Pressing this button plays the message that has been previously recorded by you using the following two (Record and Stop) buttons. This is the message that any caller shall first hear when he dials your telephone number into your Computer running TelePathy.This message is saved as <b>'play.wav'</b> in the 'Record' folder when you first record it through the Record and Stop buttons of TelePathy. An example of such message is "I ,an owner of the TelePathy software,is not currently at home ,you can leave your message now. Thank You." You can use this button to play & verify that your to-be-telecasted message has been properly recorded and saved</p><br>
+<br>
+&nbsp;&nbsp;&nbsp; The Record Button :-<br>
+&nbsp;&nbsp;&nbsp;<img src= HRecord.gif> <p>Press this button and start recording your new To-Be-Telecasted message through  your properly connected and configured microphone as you speak into it. See 'FAQ' topic for setting proper configurations to use TelePathy . 
+Press the Stop button mentioned next to stop recording at any stage.
+<br><b>Caution:</b>  Any other sound being played in your system simultaneously too might get recorded as well. So be sure not to create a Musical To-Be-Telecasted message (or may be you would want to)
+</p>
+<br><br>
+ &nbsp;&nbsp;&nbsp;The Stop Button :-<br>
+&nbsp;&nbsp;&nbsp;<img src= HStop.gif> <p>Press this button to stop recording your message 
+being captured through your microphone.  This will stop the recording as well as save your recorded message as <b>'Play.wav'</b> file into the <b>'Record'</b> folder.<br>
+<br><b>Caution:</b>This will overwrite any previously recorded Message(Play.wav) in the 'Record' folder.So press this button only if you've done with recording your To-Be-Telecasted  message completely.
+<br>You can otherwise too record and/or copy/paste any wave file as 'Play.wav' file into the 
+'Record' folder. This will do it as well.
+
+</p>
+<br><br>
+&nbsp;&nbsp;&nbsp; The Systray Button :-<br>
+&nbsp;&nbsp;&nbsp;<img src= Min.gif> <p>This button on pressing provides you with 2 options.
+You can press OK to let TelePathy run minimized in System tray listening for you calls.
+Or alternatively choose cancel to exit the application .
+<br><br>
+<b>Note:</b> A log containing details of all the calls and their progress is also saved in the 'Log' folder every time TelePathy is started and shutdown. Can be helpful for programmers to trace out calls and details of their success or failures.
+
+<br>
+</p>
+</font>
+<h3><center>System Requirements</center></h3><br><br>
+ a.)&nbsp;&nbsp;&nbsp;<font color="black">Operating System:- <br></font>
+<p>
+<font color="blue">
+Compatible with OSes with a WindowsNT Kernel viz. Windows 2000(all service packs),Windows XP (Home or Professional).
+</font>
+</p>
+
+b.)&nbsp;&nbsp;&nbsp;<font color="black">Hardware Requirements:- <br><br></font>
+
+<font color="blue">
+1.)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Modem (can be internal or external) that is atleast half-duplex(supports voice transmission both to and fro,although not necessarily simultaneously) . e.g. Voice modems and SpeakerPhone modems . Support for a Fax modem is doubted. See your Modem manual to verify its ability to be used as an Answering Machine ,because TelePathy is an Answering-machine software. For your External modem you must leave your modem ON when you are using TelePathy to be used as an Answering-machine .For internal modems TelePathy takes care of switching the modem ON/OFF itself.
+<br><br>
+2.)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your live Telephone line ,that shoud be connected to your computer all the time you are using Telepathy. <B><I>Internet Connection </b></i>through your telephone line or your modem is <b>NOT</b> required at any time at all. TelePathy is just like a Telephone cum Answering-Machine sitting within your computer. Although your system must be connected to a live telephone line at all the time to use TelePathy,TelePathy does not uses your telephone connection when it is sitting idle listening for you calls. It only uses your connection for a minute or two just after a new call has arrived and TelePathy is able to connect to it successfully .In no case does TelePathy hang on to a connection ( whether successful or failed) more than a minute or two .It disconnects the call automatically after maximum 2 minutes of its arrival in <b>all</b> cases. Hence you are only charged for few seconds per successful call and no charge for any Failed-To-Connect call or any Idle-Time,when TelePathy is running listening for your calls.<br>
+<br>
+3.)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sound-card that is at least half-duplex.
+(OnBoard,full-duplex card is preferable).<br><br>
+4.)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A microphone properly installed and configured to record and save your message as a Wav file that shall be played when a caller first connects into TelePathy. (This file will be saved as 'Play.wav' in the Record Folder,so do not delete this folder although you can replace the wav file in it with your elsewhere recorded wav file (but with the same name i.e.'Play.wav').For recording and then playing back this file( say, for verification of proper recording)  you can also use the above mentioned cute little Play,Record,Stop buttons on Telepathy UI (User Interface) to do it for you in which case the new 'Play.wav' file will be created itself in the 'Record' folder<b>(and replace any previous one)</b>. You would still require your microphone to speak into, for TelePathy to record this message for you.Alternatively you can use the Windows Sound-Recorder application for this,which but is not as Cool! as TelePathy's own recorder buttons.
+<br><br>
+5.)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You would also require a set of Speakers to test-hear your own recorded To_Be_Telecasted message('Play.wav')  as well hear all the messges that TelePathy collects(as  .wav files into the<b>'Messages'</b> folder) from all those callers that called you upon when you were say,outside .For convenience all those messages will be saved with the exact time of call 
+attached to the corresponding wav file's name i.e. say a call appears at time 3:40 pm ,then on succesful retrieval of the message by TelePathy,the message will be saved as 'Call_at_15_40.wav'.
+in the 'Messages' folder.
+</p>
+<br>
+</font>
+
+c.)&nbsp;&nbsp;&nbsp;<font color="black">Software Requirements:- <br><br></font>
+<font color="blue">
+ <p> Tapi3.dll Module (in the your system or system32 folder of your Windows/WinNT folder).<br>
+ MCI.OCX ActiveX control.
+</font>
+<h3><center>FAQ</center></h3>
+<font color="red">
+ Q. &nbsp;&nbsp;&nbsp; Do I have to leave my computer running when I am outside?<br>
+</font>
+<font color="blue">
+Answer: &nbsp;&nbsp;&nbsp; NO! . With a few simple tweaks to your system configuration, you
+		can utilize this application even when your computer is not on.
+		But you certainly have to have your computer running in Stand-By atleast.
+	Also you must have a modem with the ability to bring your system out of standby.
+<br>
+</font>
+<br>
+<font color="red">
+Q. &nbsp;&nbsp;&nbsp;How do I know whether my modem is capable of bringing my system out of standby.
+</font><br>
+
+<font color="blue">
+Answer: &nbsp;&nbsp;&nbsp;Follow these simple steps to know if  your modem can bring your system out of standby:-
+<br> 
+&nbsp;&nbsp;&nbsp; 1.  Go to control-panel->System->Device Manager
+		 or 	control-panel->System->Hardware->Device Manager(for WIN2000 and above)
+<br>
+&nbsp;&nbsp;&nbsp; 2.Select Modems. Right click the modem that is installed on your computer
+and select properties. Scan through the tabs and buttons.If your modem is capable of bringing 
+system out of standby ,you'll certainly find an option in one of these  tabs
+(most probably in the <i><u><b>Power Management </b></u></i>tab). Select this option
+with heading somewhat similar to 'Allow this device to bring the computer out of standby'. 
+That's it!!
+<p>If you can't find this option ,Your modem is probably not capable of this task.
+You'd then have to be restricted to using TelePathy with you computer running.
+</font>
+<br><br>
+<font color="red">
+Q. &nbsp;&nbsp;&nbsp;Will this not reactivate the system on the arrival of first call and set it prone to security breach?  Will this not revert the computer to ON state ? How can I make sure that the system can turn back to stand-by just after a new call has been dispensed with?
+</font><br><br>
+<font color="blue">
+Answer: &nbsp;&nbsp;&nbsp;That's why this application runs best on WinNT/Win2000.
+As far as switching on to handle the call and switching back to standby is concerned,
+this problem can be sort out by changing some power configurations.
+Follow these steps:-<br>
+&nbsp;&nbsp;&nbsp; 1. Go to Control-Panel->Power Options->Power Schemes.<br>
+&nbsp;&nbsp;&nbsp; 2. Set 'Turn off moniter'option to 1 Minute (Optional, good for power saving).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Set 'Turn off hard disks 'option to 'Never'<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Set 'System Standby' option to 2 or 3 minutes(Long enough to handle a call)<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Set 'System Hibernate' option to 'Never'(VERY IMPORTANT)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Also in the 'Advanced' tab select the option
+'Prompt for password when computer goes off standby'<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can also save this Power scheme to a name as 'TelePathy Scheme'
+so that you can easily switch to this TelePathy-compatible scheme when you're going outside
+and revert to your normal Power scheme on return.
+
+
+Also remember to Minimize the TelePathy Application to systray and the system to stand-by when you are going out.
+
+<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As far as security goes, the option
+'Prompt for password when computer goes off standby' if selected, can take care of it.
+This option makes sure that as and when your computer awakes for a few minutes to handle a new  call, your system is held safe behind the 'Workstation Locked' screen while TelePathy
+attends to the call behind the screen.
+
+After the call is dispensed with ,the system sleeps back to standby within a minute or two, as per the TelePathy Power-Scheme applied .
+
+<br><br> Now with these few configuration made, your system should be fully compatible with TelePathy.
+</font>
+<br><br>
+<font color="red">
+ Q. &nbsp;&nbsp;&nbsp; Do I have to be connected to the internet to use TelePathy?<br>
+</font>
+<font color="blue">
+Answer: &nbsp;&nbsp;&nbsp; You do not have to be connected to the internet at any time at all 
+to use TelePathy. Infact you would be advised to go offline before you can use TelePathy properly unless you have two modems on the same computer.
+<p>Telepathy simply and only uses your Modem and your telephone line ( that too not more than a minute per call attended) . It automatically connects to  and disconnects from the Telephone line 
+immediately a call is done with, even if a call disconnects in between due to bad service or any wrong reason. 
+<p> Hence Telepathy is not only Useful but light on pocket too.</p>
+</font>
+<br>
+<font color="red">
+ Q. &nbsp;&nbsp;&nbsp; Can TelePathy run without the need to switch between standby and normal state repeatedly?<br><br>
+</font>
+<font color="blue">
+Answer: &nbsp;&nbsp;&nbsp; Not in its current form. But I'm working on changing TelePathy
+to a Windows Service type application. As and when I am able to do it ,It would not only make
+TelePathy a safer,more secure and more reliable application,it will also make it a less intervening and a quieter application,without the need of switching the system between different states at all.Even the need of logging on as a user to run it might be done with.
+The source code of TelePathy is accompanying the software. If you are into VC++ ,COM programming
+,you can go through the code and use it as you like. I'd be glad to know of any advancements
+made to the source code. 
+<br> You are free to mail me at <a href=mailto:amansunil2002@yahoo.com>AmanSunil2002@Rediffmail.com</a>
+</font>
+<br><br>
+<font color="red">
+ Q. &nbsp;&nbsp;&nbsp; TelePathy is not working on my computer?<br><br>
+</font>
+<font color="blue">
+Answer: &nbsp;&nbsp;&nbsp; Possible Reasons and remedies are: <br>
+&nbsp;&nbsp;&nbsp; a.)Your modem is not capable to be used as an answering machine. See your  modem manual for this.<br>
+&nbsp;&nbsp;&nbsp; b.)Make sure that your sound card is atleast half-duplex(full-duplex is best).
+<br>
+&nbsp;&nbsp;&nbsp; c.)Make sure that in the Control Panel-> Sounds and Multimedia->Audio Tab :-  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In the <b>Sound Playback</b> settings,click Volume and <b>UNCHECK</b> the 'Mute' checkboxes in all the volume controls.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In the <b>Sound Recording</b> settings,click Volume and <b>CHECK</b> the 'Select' checkbox in the <b><u>Stereo Mix</u></b> volume control and its volume set to top.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also in the dropdown list of Preferred device 
+select your main (Onboard sound card in most cases) as your choice of device. 
+Select it for both ,Sound Playback as well as Sound Recording.
+<br>
+<br>
+</font>
+</body>
+</html>
